@@ -1,0 +1,232 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+ .blue{
+    background-color: #283044;
+}
+ .b{
+    background-image: url("img/LogoFreccia2.svg");
+    background-repeat: no-repeat;
+     align-content:flex-start;
+    z-index: 3;
+}
+ .b2{
+    background-image: url("img/LogoB.svg");
+    background-repeat: no-repeat;
+     align-content:flex-start;
+    z-index: 3;
+}
+ .bluerow{
+    margin-top: 10rem;
+     height: 15rem;
+}
+/*NAVBAR*/
+ .navbar-collapse {
+    flex-grow: 0;
+}
+ .navbar{
+    box-sizing: border-box;
+     padding-left:6rem;
+     padding-right:6rem;
+}
+ .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right:2rem;
+     padding-left:2rem;
+     font-weight:400;
+     color:black;
+}
+ .navbar-brand{
+    margin-left: 1.5rem;
+}
+ .navbar-brand img{
+    margin-right: 1rem;
+}
+ .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    font-weight:600;
+     border-bottom: 5px solid #db2955;
+}
+/*HEADER*/
+ .header{
+}
+ .header h1{
+     font-weight: 700;
+     font-size: 100px;
+     line-height: 138px;
+     margin-bottom: 2rem;
+     margin-top: 15rem;
+}
+ .header h2{
+     font-weight: 700;
+     font-size: 28px;
+     line-height: 35px;
+     margin-bottom: 12rem;
+}
+ .header img{
+     max-width: 53.5rem;
+     margin-top: 6rem;
+}
+/*DETTAGLIO COLORATO*/
+ .color {
+    display: inline;
+     color: #db2955;
+}
+/*ANIMAZIONE FRECCIA*/
+ @keyframes scroll {
+     0%{
+        top:0px;
+    }
+     50%{
+        top:60px;
+    }
+     100%{
+        top:0px;
+    }
+}
+ .arrow{
+    max-width: 27%;
+    opacity: 0.05;
+     animation: scroll 3s infinite;
+     margin-bottom: 10rem;
+    position: relative;
+}
+/*BOX*/
+ .box{
+}
+ .box h1{
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 46px;
+     margin-bottom: 3rem;
+     margin-top: 11rem;
+}
+ .box h2{
+     text-align: center;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 26px;
+     margin-bottom: 2rem;
+}
+ .box p{
+     text-align: center;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 25px;
+     margin-top: 2rem;
+     margin-bottom: 12rem;
+}
+ .box img{
+     max-width:26rem;
+}
+/*BOX*/
+ .box3{
+}
+ .box3 h1{
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 46px;
+     margin-top: 11rem;
+}
+ .box3 h2{
+     text-align: left;
+     font-weight: 500;
+     font-size: 23px;
+     line-height: 26px;
+     margin-top: 6rem;
+}
+ .box3 p{
+     text-align: left;
+     font-weight: 300;
+     font-size: 23px;
+     line-height: 26px;
+     margin: 6rem 0;
+}
+ .box3 img{
+     max-height: 25px;
+}
+ .box4{
+}
+ .box4 h2{
+     text-align: center;
+     font-weight: 500;
+     font-size: 23px;
+     line-height: 26px;
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+}
+ .box4 p{
+     text-align: center;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 25px;
+     margin-top: 2rem;
+     margin-bottom: 12rem;
+}
+/*FORM*/
+ .form-control{
+     border-radius: 1rem;
+}
+ .contact{
+}
+ .contact img{
+    margin: 1.5rem 0;
+}
+ .contact p{
+    margin: 0.5rem 1.5rem;
+}
+ .spazio{
+     margin: 4rem 0;
+}
+/*FLEX*/
+ .item{
+    height: 20%;
+     flex-grow: 1;
+     max-width: 210px;
+     margin-right:4rem;
+    margin-top:8rem;
+}
+/*GALLERY*/
+ .gallerymargin{
+     margin-top:6rem;
+}
+/*BUTTON*/
+ .btn-color{
+     border: solid 3px #db2955;
+     border-radius: 20px;
+     color: white;
+     padding: 16px 33px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 8rem 0;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     text-transform: uppercase;
+     background-color: #db2955;
+}
+ .btn-color:hover{
+     color:#db2955;
+     background-color: #FFF;
+     border: solid 3px #db2955;
+}
+ .margin{
+    margin: 4rem 6.5rem 5rem 0;
+}
+/*FOOTER*/
+ .box2{
+    box-sizing: border-box;
+     padding: 3rem 0;
+    align-content: center;
+     overflow: hidden;
+}
+ .box2 h1{
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 14px;
+}
+ .box2 h2{
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 22px;
+}
+ 
